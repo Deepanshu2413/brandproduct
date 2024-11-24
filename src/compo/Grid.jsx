@@ -2,55 +2,58 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import mainimg from "../assets/image/slideshow-1.jpg"
 
+
 const products = [
   {
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "path/to/image1.jpg", // Replace with real image paths
+    img: "src/assets/image/img1.webp", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "path/to/image2.jpg",
-  },
-  {
-    id: 3,
-    name: "Givenchy Heels",
-    price: "$48.99",
-    img: "path/to/image3.jpg",
-  },
-  {
-    id: 1,
-    name: "Colette",
-    price: "$48.99",
-    img: "path/to/image1.jpg", // Replace with real image paths
-  },
-  {
-    id: 2,
-    name: "Jimmy Choo",
-    price: "$48.99",
-    img: "path/to/image2.jpg",
-  },
-  {
-    id: 3,
-    name: "Givenchy Heels",
-    price: "$48.99",
-    img: "path/to/image3.jpg",
-  },{
-    id: 1,
-    name: "Colette",
-    price: "$48.99",
-    img: "path/to/image1.jpg", // Replace with real image paths
-  },
-  {
-    id: 2,
-    name: "Jimmy Choo",
-    price: "$48.99",
-    img: "path/to/image2.jpg",
+    img: "src/assets/image/img2.webp",
   },
   
+  {
+    id: 3,
+    name: "Givenchy Heels",
+    price: "$48.99",
+    img: "src/assets/image/img3.webp",
+  },
+  {
+    id: 3,
+    name: "Givenchy Heels",
+    price: "$48.99",
+    img: "src/assets/image/img3.webp",
+  },
+  {
+    id: 1,
+    name: "Colette",
+    price: "$48.99",
+    img: "src/assets/image/img4.webp", // Replace with real image paths
+  },
+  {
+    id: 2,
+    name: "Jimmy Choo",
+    price: "$48.99",
+    img: "src/assets/image/img2.webp",
+  },
+  
+  {
+    id: 1,
+    name: "Colette",
+    price: "$48.99",
+    img: "src/assets/image/img4.webp", // Replace with real image paths
+  },
+  {
+    id: 2,
+    name: "Jimmy Choo",
+    price: "$48.99",
+    img: "src/assets/image/img2.webp",
+  },
   
   // Add more products as needed
 ];
@@ -68,8 +71,8 @@ const Grid = () => {
           </div>
           
           <div>
-          <h2 className="text-4xl font-semibold mb-4 text-center">Awsome!!!</h2>
-          <p className="text-gray-600 mb-8 text-center">
+          <h2 className="text-4xl font-semibold mb-4 ">Awsome!!!</h2>
+          <p className="text-gray-600 mb-8  text-xl ">
             The class product and trading item, make the fasion rore
           </p>
           <Link to='/Shop' className="bg-emerald-900  text-white px-6 py-3 rounded-md text-center ">

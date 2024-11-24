@@ -8,6 +8,7 @@ import Service from './compo/Service';
 import Login from './compo/Login';
 import About from './compo/About';
 import Header from './compo/Header';
+import Footer from './compo/Footer';
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
               <Route path="/about" element={<About />} />
               
             </Routes>
-          
+            <Footer />
           
         </>
   )
