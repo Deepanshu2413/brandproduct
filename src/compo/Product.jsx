@@ -7,7 +7,7 @@ const products = [
       id: 1,
       name: "Colette",
       price: "48.99",
-      img: "src/assets/image/img1.jpg", // Replace with real image paths
+      img: "src/assets/image/img1.webp", // Replace with real image paths
     },
     {
       id: 2,
