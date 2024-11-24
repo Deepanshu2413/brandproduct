@@ -8,51 +8,51 @@ const products = [
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "src/assets/image/img1.webp", // Replace with real image paths
+    img: "src/assets/image/img1.jpg", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "src/assets/image/img2.webp",
+    img: "src/assets/image/img2.jpg",
   },
   
   {
     id: 3,
     name: "Givenchy Heels",
     price: "$48.99",
-    img: "src/assets/image/img3.webp",
+    img: "src/assets/image/img3.jpg",
   },
   {
     id: 3,
     name: "Givenchy Heels",
     price: "$48.99",
-    img: "src/assets/image/img3.webp",
+    img: "src/assets/image/img3.jpg",
   },
   {
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "src/assets/image/img4.webp", // Replace with real image paths
+    img: "src/assets/image/img4.jpg", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "src/assets/image/img2.webp",
+    img: "src/assets/image/img2.jpg",
   },
   
   {
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "src/assets/image/img4.webp", // Replace with real image paths
+    img: "src/assets/image/img4.jpg", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "src/assets/image/img2.webp",
+    img: "src/assets/image/img2.jpg",
   },
   
   // Add more products as needed
