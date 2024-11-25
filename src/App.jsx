@@ -9,6 +9,7 @@ import Login from './compo/Login';
 import About from './compo/About';
 import Header from './compo/Header';
 import Footer from './compo/Footer';
+import Shop from './compo/Shop';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/login" element={<Login />} />
               <Route path="/about" element={<About />} />
+              <Route path="/shop" element={<Shop />} />
               
             </Routes>
             <Footer />

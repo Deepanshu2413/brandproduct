@@ -7,153 +7,101 @@ const products = [
       id: 1,
       name: "Colette",
       price: "48.99",
-      img: "src/assets/image/img1.webp", // Replace with real image paths
+      
+      img: "src/assets/image/img1.jpg", // Replace with real image paths
     },
     {
       id: 2,
       name: "Jimmy Choo",
       price: "48.99",
-      img: "src/assets/image/img2.webp",
+      img: "src/assets/image/img2.jpg",
     },
     
     {
       id: 3,
       name: "Givenchy Heels",
       price: "48.99",
-      img: "src/assets/image/img3.webp",
+      img: "src/assets/image/img3.jpg",
     },
     {
-      id: 3,
+      id: 4,
       name: "Givenchy Heels",
       price: "48.99",
-      img: "src/assets/image/img3.webp",
-    },
-    {
-      id: 1,
-      name: "Colette",
-      price: "48.99",
-      img: "src/assets/image/img4.webp", // Replace with real image paths
-    },
-    {
-      id: 2,
-      name: "Jimmy Choo",
-      price: "48.99",
-      img: "src/assets/image/img2.webp",
-    },
-    
-    {
-      id: 1,
-      name: "Colette",
-      price: "48.99",
-      img: "src/assets/image/img4.webp", // Replace with real image paths
-    },
-    {
-      id: 2,
-      name: "Jimmy Choo",
-      price: "48.99",
-      img: "src/assets/image/img2.webp",
-    },
-    {
-        id: 1,
-        name: "Colette",
-        price: "48.99",
-        img: "src/assets/image/img1.webp", // Replace with real image paths
-      },
-      {
-        id: 2,
+      img: "src/assets/image/img4.jpg",
+    },{
+        id: 5,
         name: "Jimmy Choo",
         price: "48.99",
-        img: "src/assets/image/img2.webp",
+        img: "src/assets/image/img2.jpg",
       },
       
       {
-        id: 3,
+        id: 6,
         name: "Givenchy Heels",
         price: "48.99",
-        img: "src/assets/image/img3.webp",
-      },
-      {
-        id: 3,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.webp",
-      },
-      {
-        id: 1,
-        name: "Colette",
-        price: "48.99",
-        img: "src/assets/image/img4.webp", // Replace with real image paths
-      },
-      {
-        id: 2,
+        img: "src/assets/image/img3.jpg",
+      },{
+        id: 7,
         name: "Jimmy Choo",
         price: "48.99",
-        img: "src/assets/image/img2.webp",
+        img: "src/assets/image/img2.jpg",
       },
       
       {
-        id: 1,
-        name: "Colette",
+        id: 8,
+        name: "Givenchy Heels",
         price: "48.99",
-        img: "src/assets/image/img4.webp", // Replace with real image paths
-      },
-      {
-        id: 2,
+        img: "src/assets/image/img3.jpg",
+      },{
+        id: 8,
         name: "Jimmy Choo",
         price: "48.99",
-        img: "src/assets/image/img2.webp",
-      },
-      {
-        id: 1,
-        name: "Colette",
-        price: "48.99",
-        img: "src/assets/image/img1.webp", // Replace with real image paths
-      },
-      {
-        id: 2,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.webp",
+        img: "src/assets/image/img2.jpg",
       },
       
       {
-        id: 3,
+        id: 9,
         name: "Givenchy Heels",
         price: "48.99",
-        img: "src/assets/image/img3.webp",
-      },
-      {
-        id: 3,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.webp",
-      },
-      {
-        id: 1,
-        name: "Colette",
-        price: "48.99",
-        img: "src/assets/image/img4.webp", // Replace with real image paths
-      },
-      {
-        id: 2,
+        img: "src/assets/image/img3.jpg",
+      },{
+        id: 10,
         name: "Jimmy Choo",
         price: "48.99",
-        img: "src/assets/image/img2.webp",
+        img: "src/assets/image/img2.jpg",
       },
       
       {
-        id: 1,
-        name: "Colette",
+        id: 11,
+        name: "Givenchy Heels",
         price: "48.99",
-        img: "src/assets/image/img4.webp", // Replace with real image paths
-      },
-      {
-        id: 2,
+        img: "src/assets/image/img3.jpg",
+      },{
+        id: 12,
         name: "Jimmy Choo",
         price: "48.99",
-        img: "src/assets/image/img2.webp",
+        img: "src/assets/image/img2.jpg",
       },
-        
+      
+      {
+        id: 13,
+        name: "Givenchy Heels",
+        price: "48.99",
+        img: "src/assets/image/img3.jpg",
+      },{
+        id: 14,
+        name: "Jimmy Choo",
+        price: "48.99",
+        img: "src/assets/image/img2.jpg",
+      },
+      
+      {
+        id: 15,
+        name: "Givenchy Heels",
+        price: "48.99",
+        img: "src/assets/image/img3.jpg",
+      },
+   
     // Add more products as needed
   ];
 
@@ -183,6 +131,7 @@ const Product = () => {
               />
               <div className="p-4">
                 <h3 className="text-lg font-semibold">{product.name}</h3>
+                
                 <p className="text-gray-500">₹ {product.price}</p>
                 <button className="mt-4 bg-black text-white px-4 py-2 rounded">
                   Add to Cart
@@ -194,6 +143,8 @@ const Product = () => {
       </div>
     </div>
 
+
+    
     </>
     )
 }
