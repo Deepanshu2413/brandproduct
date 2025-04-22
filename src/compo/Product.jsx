@@ -8,100 +8,22 @@ const products = [
       name: "Colette",
       price: "48.99",
       
-      img: "src/assets/image/img1.jpg", // Replace with real image paths
+      img: "/image/img1.jpg", // Replace with real image paths
     },
     {
       id: 2,
       name: "Jimmy Choo",
       price: "48.99",
-      img: "src/assets/image/img2.jpg",
+      img: "/image/img2.jpg",
     },
     
     {
       id: 3,
       name: "Givenchy Heels",
       price: "48.99",
-      img: "src/assets/image/img3.jpg",
+      img: "/image/img3.jpg",
     },
-    {
-      id: 4,
-      name: "Givenchy Heels",
-      price: "48.99",
-      img: "src/assets/image/img4.jpg",
-    },{
-        id: 5,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.jpg",
-      },
-      
-      {
-        id: 6,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.jpg",
-      },{
-        id: 7,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.jpg",
-      },
-      
-      {
-        id: 8,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.jpg",
-      },{
-        id: 8,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.jpg",
-      },
-      
-      {
-        id: 9,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.jpg",
-      },{
-        id: 10,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.jpg",
-      },
-      
-      {
-        id: 11,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.jpg",
-      },{
-        id: 12,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.jpg",
-      },
-      
-      {
-        id: 13,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.jpg",
-      },{
-        id: 14,
-        name: "Jimmy Choo",
-        price: "48.99",
-        img: "src/assets/image/img2.jpg",
-      },
-      
-      {
-        id: 15,
-        name: "Givenchy Heels",
-        price: "48.99",
-        img: "src/assets/image/img3.jpg",
-      },
-   
+    
     // Add more products as needed
   ];
 

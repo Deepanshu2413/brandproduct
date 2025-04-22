@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-import mainimg from "../assets/image/slideshow-1.jpg"
+
 
 
 const products = [
@@ -8,51 +8,51 @@ const products = [
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "src/assets/image/img1.jpg", // Replace with real image paths
+    img: "/image/img1.jpg", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "src/assets/image/img2.jpg",
+    img: "/image/img2.jpg",
   },
   
   {
     id: 3,
     name: "Givenchy Heels",
     price: "$48.99",
-    img: "src/assets/image/img3.jpg",
+    img: "/image/img3.jpg",
   },
   {
     id: 3,
     name: "Givenchy Heels",
     price: "$48.99",
-    img: "src/assets/image/img3.jpg",
+    img: "simage/img3.jpg",
   },
   {
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "src/assets/image/img4.jpg", // Replace with real image paths
+    img: "/image/img4.jpg", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "src/assets/image/img2.jpg",
+    img: "/image/img2.jpg",
   },
   
   {
     id: 1,
     name: "Colette",
     price: "$48.99",
-    img: "src/assets/image/img4.jpg", // Replace with real image paths
+    img: "/image/img4.jpg", // Replace with real image paths
   },
   {
     id: 2,
     name: "Jimmy Choo",
     price: "$48.99",
-    img: "src/assets/image/img2.jpg",
+    img: "/image/img2.jpg",
   },
   
   // Add more products as needed
@@ -63,7 +63,7 @@ const Grid = ({ onAddToCart }) => {
       <>
         {/*-- hero section  --*/}
 
-        <div className="bg-[url('./assets/image/slideshow-1.jpg')] py-40">
+        <div className="bg-[url('/image/slideshow-1.jpg')] py-40">
             
         <div className="container mx-auto px-4 flex">
           <div>
